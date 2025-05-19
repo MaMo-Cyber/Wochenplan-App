@@ -1,0 +1,31 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: { flex: 1, padding: 20, backgroundColor: '#e0f7fa' },
+  header: { fontSize: 24, textAlign: 'center', marginBottom: 20 },
+  subHeader: { fontSize: 20, marginTop: 20, marginBottom: 10 },
+  table: { borderWidth: 1, borderColor: '#ddd', backgroundColor: 'white' },
+  tableRow: { flexDirection: 'row' },
+  tableHeader: { backgroundColor: '#a5d6a7', fontWeight: 'bold', padding: 10 },
+  tableCell: { borderWidth: 1, borderColor: '#ddd', padding: 10, flex: 1, textAlign: 'center' },
+  dayCell: { flex: 2 },
+  taskCell: { flex: 3 },
+  input: { borderWidth: 1, borderColor: '#ddd', padding: 5, borderRadius: 4, flex: 1 },
+  progressBar: { width: '100%', height: 20, borderRadius: 10, marginBottom: 10 },
+  rewardItem: { marginLeft: 20, marginBottom: 5 },
+  menuButton: {
+    position: 'absolute',
+    top: 10,
+    right: 10,
+    backgroundColor: '#4caf50',
+    padding: 8,
+    borderRadius: 4,
+    zIndex: 2000,
+  },
+  menu: { flex: 1, backgroundColor: 'white', padding: 20 },
+  menuHeader: { flexDirection: 'row', justifyContent: 'flex-end', marginBottom: 10 },
+  menuTitle: { fontSize: 20, fontWeight: 'bold' },
+  closeButton: { backgroundColor: '#ef5350', padding: 5, borderRadius: 4 },
+  label: { fontWeight: 'bold', marginTop: 10 },
+  picker: { height: 50, width: '100%' },
+});
